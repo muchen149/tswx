@@ -1,0 +1,109 @@
+body {
+    background-color: #fafafa;
+}
+#order_id .goods-list{
+    padding: 10px 0px 5px 5px;
+    border-bottom: 1px solid #fafafa;
+}
+#order_id .supplier_name img{
+    width: 33px;
+    padding: 0px 5px 4px 10px;
+    font-size: 15px;
+    font-family: 微软雅黑;
+}
+#order_id .supplier_state{
+    color: #c80000;
+    margin-right: 10px;
+    font-size: 15px;
+}
+#order_id .supplier_reason{
+    padding-left:12px;
+    font-size: 13px;
+    background: #fff;
+    border-top: 1px solid #fafafa;
+    line-height: 30px;
+}
+#order_id .separate{
+    margin-bottom: 10px;
+}
+/*商品信息*/
+.order-list-content {
+    width: 100%;
+    height: 110px;
+    background-color: #fff;
+}
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.order-list-content-l {
+    margin-left: 3%;
+}
+.order-list-content li:nth-of-type(1) img {
+    width: 80px;
+}
+.order-list-content-r {
+    margin-left: 4%;
+    margin-right: 3%;
+    width: 80%;
+}
+.order-discount ul {
+    width: 94%;
+    height: 24px;
+    margin: 0 auto;
+}
+
+
+
+.turn-status2{
+    width: 22px;
+    height: 22px;
+    background: url("../../sd_img/unselecte.png") no-repeat;
+    background-size: 100%;
+}
+.turn-status1{
+    width: 22px;
+    height: 22px;
+    background: url("../../sd_img/selected.png") no-repeat;
+    background-size: 100%;
+}
+/*底部操作条 start*/
+.actionBar{
+    position: fixed;
+    bottom: 0px;
+    box-sizing: border-box;
+    width:100%;
+    height: 50px;
+    border-top: 1px solid rgb(220,220,220);
+    background-color: rgba(255,255,255,0.8);
+}
+.actionBar .heji{
+    text-align: center;
+}
+.actionBar .goApply{
+    width: 25%;
+    height: 51px;
+    background-color: #f53a3a;
+}
+.actionBar .goApply a{
+    color: white;
+}
+.actionBar .delete{
+    width: 25%;
+    height: 51px;
+    background-color: #f53a3a;
+}
+
+.turn-status-all-2{
+    width: 22px;
+    height: 22px;
+    background: url("../../sd_img/unselecte.png") no-repeat;
+    background-size: 100%;
+}
+.turn-status-all-1{
+    width: 22px;
+    height: 22px;
+    background: url("../../sd_img/selected.png") no-repeat;
+    background-size: 100%;
+}

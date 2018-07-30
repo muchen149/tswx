@@ -1,0 +1,142 @@
+/*simple-dialog*/
+.s-dialog-mask{position:absolute;left:0px;top:0px;background-color:rgb(20, 20, 20);filter:alpha(opacity=60);opacity: 0.6;height:100%;width:100%;z-index:9998;}
+.s-dialog-wrapper{color:#fff;font-size:14px;position: fixed;z-index: 9999;-webkit-transform-origin: 0px 0px; opacity: 1; -webkit-transform: scale(1, 1);}
+.s-dialog-skin-green{padding:10px;border-radius:4px;background-color: #fff;color:#6cb248;border:1px solid #6cb248}
+.s-dialog-skin-block{padding:10px;border-radius:4px;background-color: #fff;color:#686868;border:1px solid #e0e0e0}
+.s-dialog-skin-red{padding:10px;border-radius:4px;background-color: #fff;color:rgba(255, 0, 51, 1);border:1px solid rgba(255, 0, 51, 1)}
+.s-dialog-skin-blue{padding:10px;border-radius:4px;background-color: #fff;color:#1091d9;border:1px solid #1091d9}
+.s-dialog-content{color: #4d4d4d;font-size: 1.21429em;line-height: 48px;text-align: center;}
+.s-dialog-skin-red .s-dialog-content{color: rgba(255, 0, 51, 1);;font-size: 1.21429em;line-height: 48px;text-align: center;}
+.s-dialog-btn-wapper{padding: 1em 25px;  text-align: center;}
+.s-dialog-btn-wapper a{cursor: pointer;  display: inline-block;  text-decoration: none;}
+.s-dialog-btn-wapper .s-dialog-btn-cancel{ background: #fff none repeat scroll 0 0;  border: 1px solid #e0e0e0;  border-radius: 3px;  color: #686868;  float: left;  font-size: 15px;  height: 2.5em;  line-height: 2.5em;  text-align: center;  width: 45%;}
+.s-dialog-btn-wapper .s-dialog-btn-ok{background: #f35656 none repeat scroll 0 0;  border: 1px solid #f35656;  border-radius: 3px;  color: #fff;  float: right;  font-size: 15px;  height: 2.5em;  line-height: 2.5em;  width: 45%;}
+.s-dialog-btn-close{float:right;}
+
+/*地址管理*/
+.address *{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+	font-family:"Microsoft YaHei", 'Source Code Pro', Menlo, Consolas, Monaco, monospace;
+
+}
+.address ul{
+	background-color: white;
+}
+.address ul li:first-child{
+	width: 100%;
+	color: red;
+	display: box;			  /* OLD - Android 4.4- */   display: -webkit-box;	  /* OLD - iOS 6-, Safari 3.1-6 */   display: -moz-box;		 /* OLD - Firefox 19- (buggy but mostly works) */   display: -ms-flexbox;	  /* TWEENER - IE 10 */   display: -webkit-flex;	 /* NEW - Chrome */   display: flex;			 /* NEW, Spec - Opera 12.1, Firefox 20+ */   /* 09版 */   -webkit-box-orient: horizontal;   /* 12版 */   -webkit-flex-direction: row;   -moz-flex-direction: row;   -ms-flex-direction: row;   -o-flex-direction: row;   flex-direction: row;;
+}
+.address ul li:first-child p{
+	height: 50px;
+	line-height: 50px;
+	margin-left: 2%;
+	margin-right: 15%;
+	font-size: 15px;
+	color: rgb(80,80,80);
+	font-weight: 500;
+}
+
+.address ul li:nth-child(2){
+	width: 100%;
+	border-bottom: 1px solid rgb(220,220,220);
+	font-size: 16px;
+}
+.address ul li:nth-child(2) p{
+	height: 30px;
+	margin-left: 2%;
+	font-size: 15px;
+	color: rgb(100,100,100);
+	line-height: 30px;
+}
+
+
+.address ul li:last-child{
+	width: 100%;
+	height: 40px;
+	display: box;			  /* OLD - Android 4.4- */   display: -webkit-box;	  /* OLD - iOS 6-, Safari 3.1-6 */   display: -moz-box;		 /* OLD - Firefox 19- (buggy but mostly works) */   display: -ms-flexbox;	  /* TWEENER - IE 10 */   display: -webkit-flex;	 /* NEW - Chrome */   display: flex;			 /* NEW, Spec - Opera 12.1, Firefox 20+ */   /* 09版 */   -webkit-box-orient: horizontal;   /* 12版 */   -webkit-flex-direction: row;   -moz-flex-direction: row;   -ms-flex-direction: row;   -o-flex-direction: row;   flex-direction: row;;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.address .delete{
+	margin-right: 2%;
+	height: 40px;
+}
+.address .delete p{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+	color: rgb(120,120,120);
+}
+.default img{
+	float: left;
+	width: 24px;
+	margin-top: 8px;
+	margin-right: 6px;
+}
+.address .delete img,.editor img{
+	float: left;
+	width: 20px;
+	margin-top: 10px;
+	margin-right: 6px;
+}
+
+.address .default{
+	margin-left: 2%;
+	height: 40px;
+	width: 120px;
+	/*border: 1px solid red;*/
+}
+.address .default p{
+	float: left;
+	margin-left: 2%;
+	height: 40px;
+	line-height: 40px;
+	color: red;
+	font-size: 12px;
+}
+
+.address .editor{
+	margin-left: 20%;
+	height: 40px;
+}
+.address .editor p{
+	float: right;
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+	color: rgb(120,120,120);
+}
+.address-list .fenge{
+	width: 100%;
+	height: 10px;
+	background-color: rgb(240,240,240);
+	border-bottom: 1px solid rgb(220,220,220);
+	border-top: 1px solid rgb(220,220,220);
+}
+.address-list .btn{
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 50px;
+	text-align: center;
+	padding: 0;
+}
+.add_address {
+	background: #ff5500 none repeat scroll 0 0;
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	font-size: 16px;
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	width: 100%;
+}
+.mt20{
+	margin-top:20px;
+}

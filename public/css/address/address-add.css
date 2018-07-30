@@ -1,0 +1,75 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+}
+body{
+	background-color: rgb(240,240,240);
+}
+.fenge{
+	width: 100%;
+	height: 10px;
+	background-color: rgb(240,240,240);
+	border-bottom: 1px solid rgb(220,220,220);
+}
+.body_ul li{
+	display: box;			  /* OLD - Android 4.4- */   display: -webkit-box;	  /* OLD - iOS 6-, Safari 3.1-6 */   display: -moz-box;		 /* OLD - Firefox 19- (buggy but mostly works) */   display: -ms-flexbox;	  /* TWEENER - IE 10 */   display: -webkit-flex;	 /* NEW - Chrome */   display: flex;			 /* NEW, Spec - Opera 12.1, Firefox 20+ */   /* 09版 */   -webkit-box-orient: horizontal;   /* 12版 */   -webkit-flex-direction: row;   -moz-flex-direction: row;   -ms-flex-direction: row;   -o-flex-direction: row;   flex-direction: row;;
+	border-bottom: 1px solid rgb(220,220,220);
+	width: 100%;
+	height: 60px;
+	background-color: white;
+}
+.body_ul li p:first-child{
+	width: 100px;
+	height: 60px;
+	line-height: 60px;
+	margin-left: 2%;
+	margin-right: 5%;
+	color: rgb(120,120,120);
+	font-size: 14px;
+}
+.body_ul li img{
+	width: 27px;
+	height: 27px;
+	margin-top: 16px;
+	margin-left: 55%;
+}
+input{
+	color: rgb(100,100,100);
+	font-size: 14px;
+	font-weight: 500;
+	width: 70%;
+	outline:none;
+}
+.edit_pro{
+	color: rgb(100,100,100);
+	font-size: 14px;
+	line-height: 60px;
+	font-weight: 500;
+	width: 70%;
+	outline:medium;
+}
+.btn{
+	position: fixed;
+	bottom:0;
+	width: 100%;
+	height: 48px;
+	background-color: #ff5500;
+	text-align: center;
+}
+.btn p{
+	color: white;
+	font-size: 16px;
+    height: 48px;
+    line-height: 48px;
+}
+.edit_a{
+	margin-left:20px;
+	padding:4px 20px;
+	height: 14px;
+	background-color: #ff5500;
+	color: white;
+	font-size: 14px;
+	border-radius: 20px;
+}

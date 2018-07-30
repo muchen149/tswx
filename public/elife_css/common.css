@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    font-family:Helvetica,Arial,'Lucida Grande',Verdana,'Trebuchet MS',Tahoma,sans-serif;
+}
+.icon{
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+ul{
+    margin-bottom: 0;
+}
+a:link{
+    text-decoration: none;
+}
+a:active{
+    text-decoration: none;
+}
+a:visited{
+     text-decoration: none;
+ }
+
+p{
+    margin: 0;
+}
+body{
+    background-color: rgb(240,240,240);
+}
+.marginTop{
+    margin-top: 10px;
+}
+.marginBottom{
+    margin-bottom: 10px;
+}
+.borderTop:before{
+    position: absolute;
+    content: "";
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+    background-color: rgb(220,220,220);
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 1px;
+
+}
+.borderBottom:after{
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 1px;
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+    background-color: rgb(220,220,220);
+}
+.borderLeft:before{
+    position: absolute;
+    content: "";
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 1px;
+    -webkit-transform: scaleX(0.5);
+    transform: scaleX(0.5);
+    background-color: rgb(220,220,220);
+}
+.borderRight:after{
+    position: absolute;
+    content: "";
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 1px;
+    -webkit-transform: scaleX(0.5);
+    transform: scaleX(0.5);
+    background-color: rgb(220,220,220);
+}
+.flex-between{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+.flex-around{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.flex-unbetween{
+    display: flex;
+    align-items: center;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-start{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.flex-column-between{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-column-end{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.flex-column-start{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.b-white{
+    background-color: white;
+}
+.color-f53a3a{
+    color: #f53a3a;
+}
+.color-e42f46{
+    color: #e42f46;
+}
+.color-white{
+   color: white;
+}
+.color-50{
+    color: rgb(50,50,50);
+}
+.color-80{
+    color: rgb(80,80,80);
+}
+.color-100{
+    color: rgb(100,100,100);
+}
+.color-120{
+    color: rgb(120,120,120);
+}
+.color-160{
+    color: rgb(160,160,160);
+}
+.color-180{
+    color: rgb(180,180,180);
+}
+.color-200{
+    color: rgb(200,200,200);
+}
+.font-12{
+    font-size: 12px;
+}
+.font-14{
+    font-size: 14px;
+}
+.font-16{
+    font-size: 16px;
+}
+.font-18{
+    font-size: 18px;
+}
+.font-20{
+    font-size: 20px;
+}
+.font-22{
+    font-size: 22px;
+}
+.font-24{
+    font-size: 24px;
+}
+.font-26{
+    font-size: 26px;
+}
+.font-28{
+    font-size: 28px;
+}
+.font-30{
+    font-size: 30px;
+}
+.font-32{
+    font-size: 32px;
+}
+.font-34{
+    font-size: 34px;
+}
+.font-36{
+    font-size: 36px;
+}
+.font-40{
+    font-size: 40px;
+}
+.font-42{
+    font-size: 42px;
+}
+.font-ber{
+    font-weight: bolder;
+}
+.font-b{
+    font-weight: bold;
+}
+.size-22{
+    width: 22px;
+}
+.size-24{
+    width: 24px;
+}
+
+.size-26{
+    width: 26px;
+}
+
+.size-28{
+    width: 28px;
+}
+.size-30{
+    width: 30px;
+}
+.size-32{
+    width: 32px;
+}
+.size-34{
+    width: 34px;
+}
+.size-36{
+    width: 36px;
+}
+.size-40{
+    width: 40px;
+}
+.size-42{
+    width: 42px;
+}
+.border-b{
+    border-bottom: 1px solid rgb(220,220,220);
+}
+.border-b1{
+    border-bottom: 1px solid rgb(240,240,240);
+}
+
+/*input{
+    -webkit-appearance: none;
+}*/

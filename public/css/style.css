@@ -1,0 +1,38 @@
+
+
+
+
+/*---------------------------------------------------------/
+
+                       ☀ 唐明明20151015 ☀
+
+/---------------------------------------------------------*/
+
+
+button{border: none;}
+
+
+/*红包*/
+.red{width: 100%; padding-top: 100%;}
+.red>span{width: 100%; height: 100%; background-size: 100%; background-repeat: no-repeat; top: 0; left: 0; position: absolute;border:2px solid #ffcc00}
+.red>.bg{width: 100%; height: 100%; background-size: 100%; background-repeat: no-repeat; top: 0; left: 0; position: absolute;border:2px solid #ffcc00}
+.red>.logo{width: 28%;top: 29%; left: 37%; position: absolute;}
+.red>.rmb{width: 12%;top: 5%; left: 45.5%; position: absolute;}
+.red>.redbutton{position: absolute; top: 51%; left: 36%;width: 30%;}
+.red-jg{ position:absolute; top: 33%; text-align: center; padding: 10px;}
+.red-jg>h1{font-size: 16px; color: #505050; line-height: 40px;}
+.red-jg>h5{color: #fff;}
+
+.success>.bg{width: 100%; background-size: 100%; background-repeat: no-repeat; top: 0; left: 0; position: absolute;}
+.success>.logo{width: 26%;top: 4%; left: 38%; position: absolute;}
+
+.noredpack>.bg{width: 100%; background-size: 100%; background-repeat: no-repeat; top: 0; left: 0; position: absolute;}
+.noredpack>.logo{width: 26%;top: 4%; left: 38%; position: absolute;}
+
+.subscribe>.bg{width: 100%; background-size: 100%; background-repeat: no-repeat; top: 0; left: 0; position: absolute;}
+.subscribe>.logo{width: 26%;top: 4%; left: 38%; position: absolute;}
+
+/*按钮*/
+.t-btn{padding: 10px;}
+.t-btn>button{width: 100%; background: #ff4242; border-radius: 5px; color: #fff; line-height: 40px; font-size: 14px;}
+

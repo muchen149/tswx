@@ -1,0 +1,215 @@
+@charset "utf-8";
+
+.shop-tab{text-align: center;height: 40px;}
+.shop-tab .swiper-wrapper{border-bottom: 1px solid #ccc;height: 39px;}
+.shop-tab .swiper-slide{height: 39px;}
+.shop-tab .swiper-slide a{display: block;line-height: 39px;}
+.shop-tab .swiper-slide.active{border-bottom:1px solid #f55c54;}
+.shop-tab .swiper-slide.active a{color: #f55c54;}
+
+.i-banner img{display: block;}
+.i-banner .swiper-pagination{line-height: 0;-background: rgba(255,255,255,.2);width: 40%;left: 50%;margin-left: -20%;border-radius: 10px;padding: 2px 0;}
+.i-banner .swiper-pagination-bullet{background: none;border: 1px solid #000;width: 8px;height: 8px;-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+.i-banner .swiper-pagination-bullet-active{background: #f55c54;border-color: #f55c54;}
+
+.i-qEnter ul{padding: 10px;display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex;}
+.i-qEnter li{-webkit-flex:1;flex: 1;text-align: center;}
+.i-qEnter li .icon{display: block;width: 55px;height: 55px;margin: 0 auto;background: url(../sd_img/css-spd.png) 0 0 no-repeat;-webkit-background-size: 600px 600px; background-size: 600px 600px;}
+.i-qEnter li:nth-child(1) .icon{background-position: 0 -319px;}
+.i-qEnter li:nth-child(2) .icon{background-position: 0 -390px;}
+.i-qEnter li:nth-child(3) .icon{background-position: 0 -461px;}
+.i-qEnter li:nth-child(4) .icon{background-position: 0 -531px;}
+.i-qEnter li:nth-child(5) .icon{background-position: -75px -531px;}
+.i-qEnter li i{font-size: 13px;font-style: normal;}
+
+.i-linkBan{padding: 0 10px;padding-bottom: 10px; -background-color: rgb(230,230,230)}
+.i-linkBan img{display: block;}
+.i-linkGoods{padding: 0 10px;padding-bottom: 10px; -background-color: rgb(230,230,230)}
+.i-linkGoods ul{margin: 0 -5px;display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex;}
+.i-linkGoods li{-webkit-flex:1;flex:1;}
+.i-linkGoods li a{display: block;position: relative;padding: 0 5px;}
+.i-linkGoods li .t{line-height: 1em;position: absolute;top: 10px;left: 15px;color: #f64f7f;}
+
+.i-tabList .tab{text-align: center;-border-bottom: 1px solid #f55c54;margin-bottom: 10px;}
+.i-tabList .tab .swiper-slide a{display: block;padding: 14px 0;line-height: 1em;}
+.i-tabList .tab .swiper-slide.active a{-background: #f55c54;color: #f55c54;border-bottom: 1px solid #f55c54;}
+.i-tabList h3{font-weight: normal;line-height: 1.5em;-padding: 5px 5px;-color: #999; font-size: 17px; text-align: -webkit-center;font-weight: 600;padding-top: 5px;}
+.i-tabList .base{padding: 0 10px;margin-bottom: 10px;}
+.i-tabList .base a{display: block;border: 1px solid #eee;padding: 0 0 10px 0;}
+.i-tabList .base h4{padding: 0 5px;font-size: 12px;line-height: 1.5em;font-weight: normal;white-space: nowrap;overflow: hidden;-ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;}
+.i-tabList .base h4 + p{padding: 0 5px;font-size: 12px;line-height: 1.5em;color: #999;}
+.i-tabList .base img{display: block;margin-bottom: 10px}
+
+/*月嫂首页的css*/
+.title h4{
+    text-align: center;
+}
+
+.container-ys .details{
+    padding: 0 10px;
+    padding-bottom: 10px;
+    -background-color: rgb(230,230,230);
+}
+.container-ys .details ul{
+    margin: 25px -10px;
+    display: flex;
+}
+.container-ys .details ul li a{
+    display: block;
+    position: relative;
+    padding: 2px 2px;
+}
+.ys-qEnter ul{padding: 10px;display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex;}
+.ys-qEnter li{-webkit-flex:1;flex: 1;text-align: center;}
+.ys-qEnter li .icon{display: block;width: 55px;height: 55px;margin: 0 auto;background: url(../ys_img/yscss-spd.png) 0 0 no-repeat;-webkit-background-size: 600px 600px; background-size: 600px 600px;}
+.ys-qEnter li:nth-child(1) .icon{background-position: 0 -319px;}
+.ys-qEnter li:nth-child(2) .icon{background-position: 0 -390px;}
+.ys-qEnter li:nth-child(3) .icon{background-position: 0 -461px;}
+.ys-qEnter li:nth-child(4) .icon{background-position: 0 -531px;}
+.ys-qEnter li:nth-child(5) .icon{background-position: -75px -531px;}
+.ys-qEnter li i{font-size: 13px;font-style: normal;}
+
+
+/*two-class start*/
+.two_class_btn{
+    position: absolute;
+    z-index: 10;
+    width:20%;
+    top: 38px;
+    right: 0;
+}
+.two_class_display{
+    width:100%;
+    position: absolute;
+    background: #fff;
+    z-index: 12;
+    padding: 5px 10px 25px 10px;
+}
+.two_class_display li{
+    display: inline-block;
+    border: 1px solid #c3c3c3;
+    font-size: 10px;
+    width: 24%;
+    height: 30px;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 20px;
+}
+.two_class_display .tabs .active {
+    color: #f55c54;
+}
+#btn_left {
+    position: absolute;
+    z-index: 10;
+    width: 15%;
+    top: 5px;
+    right: 10px;
+}
+.all_gc {
+    width: 100%;
+    height: 38px;
+    position: absolute;
+    z-index: 9;
+    top: 38px;
+    right: 0;
+    background: #fff;
+}
+.all_gc .font-13{
+    display: inline-block;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+.rotate {
+    transform: rotate(90deg);
+}
+.rotate_back {
+    transform: rotate(180deg);
+}
+#btn_left img {
+    transition: all 0.8s;
+}
+/*two-class end*/
+
+/*shop-plate start*/
+.i-tabList .recommend_shop {
+    margin:10px 10px 15px 10px;
+    background: #fafafa;
+}
+.i-tabList .recommend_shop .describe {
+    text-align: center;
+    font-size: 13px;
+    color: #8a8989;
+}
+.recommend_shop .vertical {
+    padding: 10px 0px;
+}
+.vertical .goods {
+    width: 50%;
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.vertical .goods a {
+    display: block;
+    background: #fff;
+    border: 1px solid #dddddf;
+}
+.vertical .goods h3 {
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    text-align: start;
+    padding-left: 5px;
+}
+.vertical .shop_info {
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    padding-left: 5px;
+}
+
+.i-tabList .transverse {
+    padding: 10px 5px;
+}
+.transverse li {
+    display: block;
+    margin-top: 5px;
+    background: #fff;
+    border: 1px solid #dddddf;
+}
+.transverse li .goods {
+    width: 50%;
+    float: right;
+    padding: 10px 5px;
+    box-sizing: border-box;
+}
+.transverse li .goods h3{
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    font-weight: 600;
+    text-align: start;
+}
+.transverse li .goods .shop_info {
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+/*shop-plate end*/
+
+/*阴影*/
+.yinying {
+    position: fixed;
+    top: 75px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 11;
+    background-color: #c3c3c3;
+    opacity: 0.4;
+}

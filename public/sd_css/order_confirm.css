@@ -1,0 +1,301 @@
+/*阿里图标默认样式*/
+body{
+    background-color: rgb(240,240,240);
+}
+.icon{
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+.address{
+    border-bottom: 1px solid rgb(230,230,230);
+    box-shadow: 0 1px 1px rgba(80,80,80,.1);
+}
+.address div{
+    width: 95%;
+    margin: 0 auto;
+}
+.location-border{
+    width: 100%;
+    height: 4px;
+    background-image: url("../../sd_img/address-location-border.png");
+    background-repeat: repeat-x;
+    background-size: 30% 4px;
+    /*margin-bottom: 10px;*/
+}
+
+.address .l{
+    width: 9%;
+}
+
+.address .r{
+    width: 85%;
+
+}
+.address .r li:first-child{
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.address .r .r-b{
+    margin-bottom: 10px;
+    line-height: 22px;
+}
+
+/*已选商品预览*/
+.goods-has-select{
+    width: 100%;
+    height: 110px;
+}
+.goods-has-select-l{
+    margin-left: 3%;
+}
+.goods-has-select-r{
+    margin-left: 4%;
+    margin-right: 3%;
+    width: 66%;
+
+}
+.goods-has-select-l img{
+    width: 80px;
+}
+.r-title{
+    margin-bottom: 4px;
+    height: 40px;
+    overflow: hidden;
+    line-height: 20px;
+}
+.r-property{
+    margin-bottom:2px;
+}
+
+/*运费*/
+.goods-express{
+    width: 100%;
+    margin-top: 10px;
+}
+.goods-express ul{
+    width: 94%;
+    height: 50px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(230,230,230);
+}
+.goods-count{
+    width: 100%;
+}
+.goods-count ul{
+    width: 94%;
+    height: 50px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(230,230,230);
+}
+
+/*抵现选项*/
+.goods-payStyle{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.goods-payStyle ul{
+    width: 94%;
+    height: 50px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(230,230,230);
+}
+.goods-payStyle span{
+    /*display: block;*/
+    text-align: left;
+    width: 61%;
+}
+.switch1{
+    width: 40px;
+    height: 24px;
+    background-image: url("../../sd_img/switch.png");
+    background-position: 40px 0;
+    background-size: 200% 100%;
+}
+.switch2{
+    width: 40px;
+    height: 24px;
+    background-image: url("../../sd_img/switch.png");
+    background-position: 0px 0;
+    background-size: 200% 100%;
+}
+
+/*尚需支付*/
+.cash-pay{
+    width: 100%;
+    margin: 10px 0 60px;
+}
+.cash-pay ul{
+    width: 94%;
+    height: 50px;
+    margin: 0 auto;
+}
+
+/*实际支付*/
+.actual-pay{
+    position: fixed;
+    bottom: -11px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.8);
+}
+.actual-pay ul:first-child{
+    width: 70%;
+    height: 50px;
+    border-top: 1px solid rgb(230,230,230);
+}
+.actual-pay .zf-btn{
+    width: 30%;
+    height: 50px;
+    background-color:#e42f46;
+}
+.actual-pay .zhiyou_baoshui{
+    width: 30%;
+    height: 50px;
+    background-color:#e42f46;
+    display: none;
+}
+.actual-pay .heitao_qinguan{
+    width: 30%;
+    height: 50px;
+    background-color:#e42f46;
+    display: none;
+}
+.actual-pay .id_card{
+    width: 30%;
+    height: 50px;
+    background-color:#f53a3a;
+}
+
+.actual-pay .id_card_img{
+    width: 30%;
+    height: 50px;
+    background-color:#f53a3a;
+}
+.select-giftCard{
+    width: 100%;
+    height: 150px;
+    background-color: #2aabd2;
+}
+.select-ticket{
+    width: 100%;
+    height: 150px;
+    background-color: darkseagreen;
+}
+textarea{
+    -webkit-appearance: none;
+    appearance: none;
+    border: none!important;
+    outline: none;
+    /*text-indent: 20px;*/
+    padding: 12px;
+    resize: none;
+
+}
+/**/
+/*卡余额涉及的样式*/
+.xq-lb-new {
+    position: fixed;
+    bottom: -300px;
+    left: 0;
+    right: 0;
+    max-height: 300px;
+    background-color: #fff;
+    z-index: 10;
+}
+
+.title-zeng-new, #submitOrder .input-dan-new, #submitOrder .title-edit-new {
+    height: 50px;
+    border-bottom: 1px solid #f0f0f0; }
+.title-zeng-new p, #submitOrder .input-dan-new p, #submitOrder .title-edit-new p {
+    padding-top: 15px; }
+.title-zeng-new, #submitOrder .title-edit-new {
+    position: relative; }
+
+.close-btn-new {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    cursor: pointer; }
+
+.addressContent-new {
+    max-height: 260px;
+    overflow: auto; }
+
+
+
+
+
+
+/*卡片样式*/
+.card-list{
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.select{
+    width: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.select img{
+    width: 23px;
+}
+.czcard-wrap{
+    width: 92%;
+    border-bottom: 1px solid rgb(120,120,120);
+}
+.czcard{
+    width: 95%;
+    height: 46px;
+    margin: 0px auto;
+    border-radius: 8px 8px 0 0px;
+    color: white;
+}
+.color1{
+    background-color:#31a195;
+}
+.color2{
+    background-color:#12aeee ;
+}
+.color3{
+    background-color:#ef5350 ;
+}
+.czcard-mess{
+    height: 45px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.czcard-mess img{
+    width: 35px;
+}
+.czcard-mess p{
+    font-size: 14px;
+    line-height: 22px;
+}
+.czcard-mess .bold{
+    font-weight: bold;
+}
+.czcard-mess div:first-child{
+    margin-left: 3%;
+    margin-right: 3%;
+
+}
+.czcard-time{
+    width: 82%;
+    margin-left: 18%;
+    text-align: right;
+    border-top: 1px solid #787878;
+
+}
+.czcard-time p{
+    font-size: 14px;
+    line-height: 26px;
+    margin-right: 3%;
+}

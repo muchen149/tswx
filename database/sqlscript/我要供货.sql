@@ -1,0 +1,22 @@
+CREATE TABLE `yyd_member_supply` (
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT COMMENT 'id',
+  `member_id` int(10) unsigned NOT NULL COMMENT '用户id',
+  `member_name` varchar(50) DEFAULT '' COMMENT '用户姓名',
+  `contacts_name` varchar(50) DEFAULT '' COMMENT '联系人姓名',
+  `contacts_mobile` varchar(20) DEFAULT '' COMMENT '联系人电话',
+  `email` varchar(100) DEFAULT '' COMMENT '联系人邮箱',
+  `grade` tinyint(4) NOT NULL DEFAULT '10' COMMENT '会员类别【10:普通会员;20:团采用户;30:代理用户】',
+  `company_name` varchar(50) DEFAULT '' COMMENT '公司名称',
+  `company_phone` varchar(20) DEFAULT '' COMMENT '公司电话',
+  `area_info` varchar(250) DEFAULT '' COMMENT '公司地区内容',
+  `address` varchar(200) DEFAULT '' COMMENT '公司详细地址',
+  `management_scope` varchar(300) DEFAULT '' COMMENT '经营范围',
+  `business_license` varchar(300) DEFAULT NULL COMMENT '企业营业执照电子版,组织机构代码证，身份证序列化',
+  `verify_state` tinyint(1) DEFAULT '1' COMMENT '审核状态（0,为取消,1为待审核,2为同意,-1为不同意,默认为1）',
+  `reason_info` varchar(300) DEFAULT '' COMMENT '原因内容',
+  `operator` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '操作者id',
+  `is_cancel` tinyint(1) DEFAULT '0' COMMENT '用户在处于待审核期间取消申请（0.未取消，1用户取消申请）',
+  `created_at` int(10) DEFAULT NULL COMMENT '创建时间',
+  `updated_at` int(10) DEFAULT NULL COMMENT '更新时间',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COMMENT='用户申请供货表'

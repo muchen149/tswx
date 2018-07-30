@@ -1,0 +1,152 @@
+* {
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: rgb(240, 240, 240);
+}
+
+.gift_card_list {
+	background-color: white;
+	width: 100%;
+	height: 88px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.gift_card_list .left {
+	width: 12%;
+	text-align: center;
+}
+
+.gift_card_list .left img {
+	width: 20px;
+	height: 20px;
+}
+
+.gift_card_list .images {
+	width: 23%;
+}
+
+.gift_card_list .images img {
+	width: 72px;
+	height: 72px;
+}
+
+.gift_card_list .mid {
+	background-color: white;
+	width: 50%;
+}
+
+.gift_card_list .mid p:first-child {
+	margin-bottom: 10px;
+	color: rgb(50, 50, 50);
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.gift_card_list .mid p:last-child {
+	color: rgb(80, 80, 80);
+	font-size: 13px;
+}
+
+.gift_card_list .right {
+	width: 15%;
+	text-align: center;
+}
+
+.gift_card_list .right img {
+	width: 20px;
+	height: 20px;
+}
+
+.gift_cart_detail {
+	background-color: rgb(245, 245, 245);
+	width: 100%;
+	border-top: 1px dotted rgb(200, 200, 200);;
+}
+
+.gift_cart_detail_list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100px;
+}
+
+.gift_cart_detail_list .left1 {
+	width: 24%;
+	text-align: center;
+}
+
+.gift_cart_detail_list .left1 img {
+	width: 80px;
+	height: 80px;
+}
+
+.gift_cart_detail_list .right {
+	width: 72%;
+	margin-right: 2%;
+	height: 99px;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding-left:4%;
+}
+
+.gift_cart_detail_list .right .title p {
+	color: rgb(50, 50, 50);
+	font-size: 13px;
+	font-weight: 500;
+	margin-bottom: 14px;
+}
+
+.gift_cart_detail_list .right .amount p {
+	color: rgb(80, 80, 80);
+	font-size: 12px;
+}
+
+.fenge {
+	width: 100%;
+	height: 10px;
+	background-color: rgb(240, 240, 240);
+}
+
+.footer {
+	width: 100%;
+	height: 44px;
+	background-color: rgba(255, 255, 255, 0.7);
+	border-top: 1px solid rgb(230, 230, 230);
+	position: fixed;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer .btn {
+	width: 94%;
+	height: 34px;
+	background-color: rgb(220,220,220);
+	border-radius: 17px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #848689;
+	font-size: 14px;
+}
+.gift_cart_detail_list .select img {
+	width: 20px;
+	height: 20px;
+}
+.gift_cart_detail_list .select {
+	float:left;
+	width: 40px;
+	height: 40px;
+	margin-left: -10px;
+
+}
